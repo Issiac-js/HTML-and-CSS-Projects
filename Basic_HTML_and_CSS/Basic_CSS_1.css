@@ -1,0 +1,12 @@
+p {
+  color: pink;
+  text-align: right;
+}
+
+.para_style {
+  background-color: black;
+  font-weight: bold;
+  font-size: medium;
+  color: red;
+
+}
