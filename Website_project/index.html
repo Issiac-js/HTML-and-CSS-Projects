@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <link rel="stylesheet" href="./css/shared.css">
+  <link rel="stylesheet" href="./css/animations.css">
   <head>
     <meta charset="utf-8">
     <title>Car Stats</title>
   </head>
   <body>
     <!--- Nav --->
-    <div>
-      <div>
-        <ul>
+    <div class="wrap">
+      <div class="menu-container">
+        <ul class="menu">
           <a href="#home" id="link"><li>Home</li></a>
           <a href="#photos"><li>Photos</li></a>
           <a href="#contact"><li>Contact</li></a>
@@ -19,9 +21,9 @@
 
     <!--- Home --->
     <div id="home">
-      <div>
-        <div>
-          <span>The Car Stat Center</span>
+      <div class="container">
+        <div class="text-center">
+          <span class="head-main">The Car Stat Center</span>
         </div>
       </div>
     </div>
@@ -29,15 +31,15 @@
     <!--- End Home --->
 
     <!--- Photos --->
-    <section>
-      <div id="photos">
+    <section id="photos">
+      <div class="container">
         <h1>Photos</h1>
-        <div>
+        <div class="flex-container">
           <!--- Photo container 1 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_1.jpg" alt="Engine Bay">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>The Default..</p>
               </div>
@@ -45,10 +47,10 @@
           </div>
           <!--- END Photo container 1 --->
           <!--- Photo container 2 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_2.png" alt="Front quarter picture">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>The Glare...</p>
               </div>
@@ -56,10 +58,10 @@
           </div>
           <!--- END Photo container 2 --->
           <!--- Photo container 3 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_3.png" alt="Full Front picture">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Face of a champ.</p>
               </div>
@@ -67,10 +69,10 @@
           </div>
           <!--- END Photo container 3 --->
           <!--- Photo container 4 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_4.png" alt="Back end picture">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Don't look back.</p>
               </div>
@@ -78,10 +80,10 @@
           </div>
           <!--- END Photo container 4 --->
           <!--- Photo container 5 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_5.png" alt="Side profile picture">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>A mugshot perhaps?</p>
               </div>
@@ -89,10 +91,10 @@
           </div>
           <!--- END Photo container 5 --->
           <!--- Photo container 6 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_6.png" alt="front quarter picture">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Got my eyes on you.</p>
               </div>
@@ -100,10 +102,10 @@
           </div>
           <!--- END Photo container 6 --->
           <!--- Photo container 7 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_7.png" alt="Front quarter car 2">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>Ready for a fight.</p>
               </div>
@@ -111,10 +113,10 @@
           </div>
           <!--- END Photo container 7 --->
           <!--- Photo container 8 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_8.png" alt="Front quarter car 3">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>We seen where this is going.</p>
               </div>
@@ -122,10 +124,10 @@
           </div>
           <!--- END Photo container 8 --->
           <!--- Photo container 9 --->
-          <div>
-            <div>
+          <div class="photo-container">
+            <div class="photo">
                 <img src="./images/thumb/thumbnail_9.png" alt="Rear quarter car 4">
-              <div>
+              <div class="photo-overlay">
                 <h3>Click to Enlarge</h3>
                 <p>See you later.</p>
               </div>
@@ -138,19 +140,19 @@
     <!--- End Photos --->
 
     <!--- RSVP --->
-    <section>
-      <div id="contact">
-        <div>
-          <h1>Contact us</h1>
-          <div>
+    <section id="contact">
+      <div class="container">
+        <div class="heading-padding">
+          <h1 class="heading-padding">Contact us</h1>
+          <div class="reservation">
             <h2><span>All the information at your fingertips</span><br>
                 Just one click away!
             </h2>
-            <p>
+            <p class="rsvp-text">
               please Provide us witt your basic contact information.
             </p>
             <div>
-              <form class="" action="" method="post">
+              <form action="" method="post">
                 <input class="rsvp" type="text" name="" value="First Name">
                 <input class="rsvp" type="text" name="" value="Last Name">
                 <input class="rsvp" type="text" name="" value="Email">
@@ -158,7 +160,7 @@
                 <div class="form-spacer">
                   <label class="terms">Terms and conditions</label>
                 </div>
-                <div>
+                <div class="submit">
                   <input type="submit" name="" value="Submit">
                 </div>
               </form>
@@ -171,7 +173,7 @@
     <!--- END RSVP --->
 
     <!--- FOOTER --->
-    <div>
+    <div id="footer">
       <a href="https://www.ultimatespecs.com/car-specs" target="_blank">Another great resource</a> <br>
     <em> www.carstats.com &nbsp;|&nbsp; &copy; 2022</em>
     </div>
